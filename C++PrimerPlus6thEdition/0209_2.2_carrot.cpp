@@ -9,7 +9,6 @@ int main()
 
     int carrots;           // declare an integer variable
                            // 使用声明语句来指出存储类型并提供位置标签
-
     carrots = 25;          // assign a value to the variable
     cout << "I have ";  
     cout << carrots;       // display the value of the variable

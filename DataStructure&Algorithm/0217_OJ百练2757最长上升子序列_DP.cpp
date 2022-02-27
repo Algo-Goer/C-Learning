@@ -24,6 +24,8 @@ int main()
             if (a[i] > a[j])
                 maxLen[i] = max(maxLen[i], maxLen[j] + 1);
     }
-    cout << * max_element(maxLen + 1, maxLen + N + 1);
+    cout << * max_element(maxLen, maxLen + N + 1); // maxLen + 1或maxLen都可以AC
+    // 必须是maxLen + N + 1才可以AC  
+
     return 0;
 } // 时间复杂度O(n^2)
